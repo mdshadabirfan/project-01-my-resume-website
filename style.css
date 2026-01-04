@@ -1,0 +1,109 @@
+@font-face {
+    font-family: GSans ;
+    src: url(./GoogleSans-VariableFont_GRAD\,opsz\,wght.ttf);
+}
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: GSans;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+}
+#header{
+    background-color:#e63946;
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
+#header #name{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+#header #headerSkills{
+    font-size: 18px;
+    font-style: italic;
+    padding-top: 7px;
+}
+#header button{
+    padding: 10px 20px;
+    background-color: #f1faee;
+    color: #1d3557;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#about{
+    background-color: #f1faee;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.divHeading{
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+#about #aboutDescription{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.812);
+}
+#education, #skills, #projects, #contact{
+    background-color: #ffcad45d;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+.rect{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    margin-top: 5px;
+}
+#skills{
+    background-color: #cfe1b9;
+}
+#skills .rect{
+    width: 65%;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+}
+#projects{
+    background-color: #f7c59f;
+}
+#projects p{
+        font-style: italic;
+}
+#contact{
+    background-color: #78cdd7;
+}
+#contact .rect{
+    width: 70%;
+}
+#footer{
+    margin-top: 20px;
+    background-color:#e63946;
+    text-align: center;
+    padding: 25px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+}
